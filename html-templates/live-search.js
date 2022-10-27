@@ -67,7 +67,7 @@ export default class Search {
         .map(post => {
           let postDate = new Date(post.created_at)
           return `<a href="/post/${post.id}" class="list-group-item list-group-item-action">
-        <img class="avatar-tiny" src="/${post.user.avatar}"> <strong>${post.title}</strong>
+        <img class="avatar-tiny" src="${post.user.avatar}"> <strong>${post.title}</strong>
         <span class="text-muted small">by ${post.user.username} on ${postDate.getMonth() + 1}/${postDate.getDate()}/${postDate.getFullYear()}</span>
       </a>`
         })
