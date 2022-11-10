@@ -63,7 +63,7 @@ export default class Chat {
   }
 
   openConnection() {
-    Echo.private("chat").listen("ChatMessage", e => {
+    Echo.private("chatchannel").listen("ChatMessage", e => {
       this.displayMessageFromServer(e.chat)
     })
   }
