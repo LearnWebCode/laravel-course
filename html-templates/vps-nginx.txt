@@ -1,7 +1,7 @@
 server {
     listen 80;
     server_name google.com www.google.com;
-    root /var/www/laravel/public;
+    root /var/www/ourapp/public;
 
     client_max_body_size 10M;
 
