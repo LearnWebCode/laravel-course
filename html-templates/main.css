@@ -388,3 +388,11 @@ textarea.tall-textarea {
   outline: none;
   font-size: 0.75rem;
 }
+
+header .flex-row > div {
+    display: inline;
+}
+
+header .flex-row > div > div {
+    display: inline;
+}
